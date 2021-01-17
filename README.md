@@ -1,4 +1,4 @@
-# Frontend using GSAP
+# REST Countries API with color theme switcher
 
 Welcome!! :wave:
 
@@ -22,14 +22,14 @@ Your users should be able to:
 
 ## Desing
 
-![1](./desing/desktop-design-detail-dark.jpg)
-![1](./desing/desktop-design-detail-light.jpg)
-![1](./desing/desktop-design-home-dark.jpg)
-![1](./desing/desktop-design-home-light.jpg)
-![1](./desing/desktop-preview.jpg)
-![1](./desing/mobile-design-detail-dark.jpg)
-![1](./desing/mobile-design-detail-light.jpg)
-![1](./desing/mobile-design-home-dark.jpg)
-![1](./desing/mobile-design-home-light.jpg)
+![1](./design/desktop-design-detail-dark.jpg)
+![2](./design/desktop-design-detail-light.jpg)
+![3](./design/desktop-design-home-dark.jpg)
+![4](./design/desktop-design-home-light.jpg)
+![5](./design/desktop-preview.jpg)
+![6](./design/mobile-design-detail-dark.jpg)
+![7](./design/mobile-design-detail-light.jpg)
+![8](./design/mobile-design-home-dark.jpg)
+![9](./design/mobile-design-home-light.jpg)
 
 Thanks for view :green_heart:
