@@ -24,15 +24,17 @@ export default {
 }
 
 .app{
-
+    height: 100%;
     background-color: white;
     color: hsl(207, 26%, 17%);
 
 }
 .dark{
 
+    height: 100%;
     background-color:hsl(207, 26%, 17%);
     color: white;
 
 }
+
 </style>

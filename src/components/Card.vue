@@ -1,6 +1,6 @@
 <template>
 <button class="button-card">
-    <router-link to="/country" class="router">
+    <router-link :to="`/country/${pais.name}`" class="router">
         <div class="card">
             <div class="img">
                 <img :src="pais.flag" :alt="`bandera-${pais.nombre}`" class="img"></div>
@@ -26,7 +26,7 @@
 
 <script>
 export default {
-    props:['pais', 'mode'],
+    props:['pais'],
     setup(){
         const formatPopulation = (num) =>{
             return new Intl.NumberFormat("de-DE").format(num)
@@ -40,10 +40,7 @@ export default {
 
 
 .button-card{
-    background-color: inherit;
-    color: inherit;
     border: 0;
-    
 }
 
 

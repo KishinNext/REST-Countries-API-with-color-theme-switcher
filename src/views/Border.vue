@@ -1,7 +1,7 @@
 <template>
     <div class="app" :class="mode" >
         <Header :mode="mode"/>
-        <Details :nombre="nombre" :pais="pais" :borders="borders" class="details"/>
+        <Details :nombre="nombre" :mode="mode" :pais="pais" :borders="borders"/>
         <!-- <ListCountries :mode="mode"/> -->
     
     </div>
@@ -23,10 +23,7 @@ export default {
     },
     setup(props){
         const store = useStore()
-        if(localStorage.getItem('mode')){
-          store.state.mode = JSON.parse(localStorage.getItem('mode'))
-        }
-
+        
         const mode = computed(() =>{
             return store.state.mode
         })
@@ -50,5 +47,4 @@ export default {
 </script>
 
 <style>
-
 </style>
